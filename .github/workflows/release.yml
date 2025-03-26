@@ -34,4 +34,4 @@ jobs:
             oci_registry: docker.io/abuisine
             oci_username: abuisine
             oci_password: ${{ secrets.DOCKERHUB_TOKEN }}
-            github_token: ${{ secrets.CR_TOKEN }}
+            github_token: ${{ secrets.GITHUB_TOKEN }}
